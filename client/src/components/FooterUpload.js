@@ -8,7 +8,7 @@ const FooterUpload = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:5000/api/footer', { title, description, code })
+    axios.post('https://codelearn-com-1er1.vercel.app/api/footer', { title, description, code })
       .then(response => {
         alert('Footer uploaded successfully');
         setTitle('');

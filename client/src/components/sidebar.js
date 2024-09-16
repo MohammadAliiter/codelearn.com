@@ -6,7 +6,7 @@ const Sidebar = ({ onSelectFooter }) => {
   const [footers, setFooters] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/footers')
+    axios.get('https://codelearn-com-1er1.vercel.app/api/footers')
       .then(response => {
         setFooters(response.data);
       })
