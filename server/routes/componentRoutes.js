@@ -8,6 +8,6 @@ router.post('/component', addComponent);
 
 // Route to fetch components
 router.get('/components', getComponents);
-router.get('/component-types', getUniqueTypes);
+router.get('/components', getUniqueTypes);
 
 module.exports = router;
