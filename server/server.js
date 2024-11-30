@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 app.use(cors());
 app.use(express.json());
-
+// appi
 app.use('/api', componentRoutes);
 app.use('/api', templateRoutes);
 app.use('/api/auth', authRoutes); 
